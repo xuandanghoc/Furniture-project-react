@@ -1,0 +1,33 @@
+.single-product {
+    margin-top: 100px;
+
+    .single-product-link {
+        background-color: #F9F1E7;
+
+        .single-product-link-wrapper {
+            gap: 22px;
+            height: 100px;
+            padding: 0 40px;
+
+            a {
+                color: #9F9F9F;
+                cursor: pointer;
+                transition: .5s;
+            }
+
+            a:hover {
+                color: #6f6161;
+                font-weight: 700;
+            }
+    
+            span:nth-child(6) {
+                color: #000;
+            }
+    
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+        }   
+    }
+}
